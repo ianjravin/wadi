@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Send to a Friend</title>
+</head>
+
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css" type="text/css" media="all" />
+
+<style type="text/css">
+	body { font-family: Arial,Helvetica,sans-serif; }
+	label { width: 10em; float: left; }
+	label.error { float: none; color: red; padding-left: .5em; vertical-align: top; }
+	input { width: 250px; margin: 5px 0px; }
+	#submit { width: 100px; }
+</style>
+
+<script src="../jquery-latest.js"></script>
+<script src="../crm/jquery.validate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#form1").validate();
+	});
+</script>
+
+<body>
+
+<form method=post id="form1">
+	<input type=hidden name="url" id="url" value="http://www.golfoldhickory.com/golf/ecom_v2/ecom.php?cat=0&amp;item_id=1006392">
+	<input type=hidden name="item_name" id="item_name" value="$200 Gift Card - ">
+	<input type=hidden name="site_id" id="site_id" value="V2Wwx3u2Oq7XCIfNF2eRlg">
+	<center>
+	<table width=400 align=center>
+		<tr>
+			<td colspan=2><h2>Share with a Friend</h2></td>
+		</tr>
+		<tr>
+			<td colspan=2><hr></td>
+		</tr>
+		<tr>
+			<td colspan=2><img src="http://golfoldhickory.com/golf/proto/golfoldhickory/images/design/email_header.jpg" width="600" height="175" border="0"></td>
+		</tr>
+		<tr>
+			<td colspan=2><hr></td>
+		</tr>
+		<tr>
+			<td>Your Name<br><input class="required" type=text name="your_name" id="your_name" value=""></td>
+			<td>Your Email Address<br><input class="required" type=text name="your_email_address" id="your_email_address" value=""></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>1. Friend's Name<br><input class="required" type=text name="friend_name_1" id="friend_name_1" value=""></td>
+			<td>Friend's Email Address<br><input class="required" type=text name="friend_email_1" id="friend_email_1" value=""></td>
+		</tr>
+		<tr>
+			<td>2. Friend's Name<br><input type=text name="friend_name_2" id="friend_name_2" value=""></td>
+			<td>Friend's Email Address<br><input type=text name="friend_email_2" id="friend_email_2" value=""></td>
+		</tr>
+		<tr>
+			<td>3. Friend's Name<br><input type=text name="friend_name_3" id="friend_name_3" value=""></td>
+			<td>Friend's Email Address<br><input type=text name="friend_email_3" id="friend_email_3" value=""></td>
+		</tr>
+		<tr>
+			<td>4. Friend's Name<br><input type=text name="friend_name_4" id="friend_name_4" value=""></td>
+			<td>Friend's Email Address<br><input type=text name="friend_email_4" id="friend_email_4" value=""></td>
+		</tr>
+		<tr>
+			<td>5. Friend's Name<br><input type=text name="friend_name_5" id="friend_name_5" value=""></td>
+			<td>Friend's Email Address<br><input type=text name="friend_email_5" id="friend_email_5" value=""></td>
+		</tr>
+		<tr>
+			<td>6. Friend's Name<br><input type=text name="friend_name_6" id="friend_name_6" value=""></td>
+			<td>Friend's Email Address<br><input type=text name="friend_email_6" id="friend_email_6" value=""></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan=2>Add a personal message (optional):</td>
+		</tr>
+		<tr>
+			<td colspan=2><textarea name='friend_note' id='friend_note' cols="60" rows="5"></textarea></td>
+		</tr>
+		<tr>
+	  <td colspan=2><input name="submit" id="submit" type="submit" value="Send Email(s)" style="width:150px"></td>
+		</tr>
+	</table>
+	</center>
+</form>
+</body>
+</html>

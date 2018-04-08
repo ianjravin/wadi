@@ -1,0 +1,47 @@
+.btn-right {
+	display:inline-block;
+	position:relative;
+	vertical-align: middle;
+}
+
+.btn-right ul{	
+	list-style:outside none none;
+	margin:0;
+	padding:0;
+}
+
+.btn-right  li {
+	border-right:1px solid #666;
+	margin:0;
+	padding:8px 5px 7px;
+	display:inline-block;
+}
+
+.btn-right  li:last-child {
+	border-right:0 none;
+}
+
+.btn-right li > a {
+	color: #efefef;
+	padding:8px 10px;
+	font-size:12px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-right li > a:hover, .btn-right li > a:focus {
+	text-decoration:none;
+}
+
+.pull-right {
+	float:right;
+	margin-left:10px;
+}
+
+.pull-left {
+	float:left;
+	margin-right:10px;
+}
