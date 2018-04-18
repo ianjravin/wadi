@@ -130,27 +130,24 @@
 		<div class="collapse navbar-collapse" id="navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
 
-				<li><a href="index.html" ><font color="yellow">Home</font></a>
-
-				</li>
-				<li><a href="events.html"><font color="yellow">Events</font></a></li>
+				<li><a href="eventss.html"><font color="yellow">Events</font></a></li>
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="yellow">Book</font></a>
 					<ul class="dropdown-menu">
-						<li><a href="venue.html"><font color="yellow">facilities</font></a></li>
-						<li><a href="grounds.html"><font color="yellow">Grounds</font></a></li>
+						<li><a href="venues.html"><font color="yellow">facilities</font></a></li>
+						<li><a href="groundss.html"><font color="yellow">Grounds</font></a></li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><font color="yellow">Add member</font></a>
+					<ul class="dropdown-menu">
+						<li><a href="spouse.html"><font color="yellow">Spouse</font></a></li>
+						<li><a href="child.html"><font color="yellow">Children</font></a></li>
+
+
 					</ul>
 				</li>
 
-
-
-
-
-
-				<li><a href="#" ><font color="yellow">Contact</font></a>
-
-				</li>
-				<li><a href="login.html"><font color="yellow">log out</font></a></li>
+				<li><a href="index.html"><font color="yellow">log out</font></a></li>
 			</ul>
 		</div>
 	</div>
@@ -250,30 +247,45 @@
     <form method="post" action="/action_page_post.php">
       <fieldset data-role="collapsible">
         <legend>Spouse</legend>
-          <label for="name">Full Name:</label>
+
+					<label for="address">Postal Address:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="Code">Code:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">City/Town:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Home Phone:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Mobile No:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Email Address:*</label>
           <input type="text" name="text" id="name">
 
       <input type="submit" data-inline="true" value="Submit">
       </fieldset>
     </form>
   </div>
-  <div data-role="main" class="ui-content">
-    <form method="post" action="/action_page_post.php">
-      <fieldset data-role="collapsible">
-        <legend>Children</legend>
-          <label for="name">Full Name:</label>
-          <input type="text" name="text" id="name">
 
-      <input type="submit" data-inline="true" value="Submit">
-      </fieldset>
-    </form>
-  </div>
   <div data-role="main" class="ui-content">
     <form method="post" action="/action_page_post.php">
       <fieldset data-role="collapsible">
         <legend>Nanny</legend>
           <label for="name">Full Name:</label>
           <input type="text" name="text" id="name">
+					<label for="address">Postal Address:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="Code">Code:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">City/Town:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Home Phone:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Mobile No:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Email Address:*</label>
+          <input type="text" name="text" id="name">
+
+
 
       <input type="submit" data-inline="true" value="Submit">
       </fieldset>
@@ -283,8 +295,13 @@
     <form method="post" action="/action_page_post.php">
       <fieldset data-role="collapsible">
         <legend>Next of Kin</legend>
-          <label for="name">Full Name:</label>
-          <input type="text" name="text" id="name">
+				<label for="name">Full Name:</label>
+				<input type="text" name="text" id="name">
+				<label for="address">Mobile No:</label>
+				<input type="text" name="text" id="name">
+				<label for="Code">Relationship:</label>
+				<input type="text" name="text" id="name">
+
 
       <input type="submit" data-inline="true" value="Submit">
       </fieldset>
@@ -294,7 +311,12 @@
     <form method="post" action="/action_page_post.php">
       <fieldset data-role="collapsible">
         <legend>Beneficiary</legend>
-          <label for="name">Full Name:</label>
+				<label for="name">Full Name:</label>
+				<input type="text" name="text" id="name">
+				<label for="address">Mobile No:</label>
+				<input type="text" name="text" id="name">
+				<label for="Code">Relationship:</label>
+				<input type="text" name="text" id="name">
 
       <input type="submit" data-inline="true" value="Submit">
       </fieldset>
@@ -304,8 +326,17 @@
     <form method="post" action="/action_page_post.php">
       <fieldset data-role="collapsible">
         <legend>Medical Information</legend>
-          <label for="name">Doctor's Name:</label>
+          <label for="name">Family Doctor:</label>
           <input type="text" name="text" id="name">
+					<label for="address">Pre-existing conditions:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="Code">Allergies:*:</label>
+          <input type="text" name="text" id="name">
+          <label for="id no">Medical Insurance(if any):</label>
+          <input type="text" name="text" id="name">
+
+
+
 
       <input type="submit" data-inline="true" value="Submit">
       </fieldset>
